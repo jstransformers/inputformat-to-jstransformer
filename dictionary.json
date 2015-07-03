@@ -12,9 +12,6 @@
   "atpl": [
     "jstransformer-atpl"
   ],
-  "autoprefixer": [
-    "jstransformer-autoprefixer"
-  ],
   "babel": [
     "jstransformer-babel"
   ],
@@ -59,12 +56,6 @@
   "css-whitespace": [
     "jstransformer-css-whitespace"
   ],
-  "cssnext": [
-    "jstransformer-cssnext"
-  ],
-  "doiuse": [
-    "jstransformer-doiuse"
-  ],
   "dot": [
     "jstransformer-dot"
   ],
@@ -88,12 +79,6 @@
   ],
   "escape-html": [
     "jstransformer-escape-html"
-  ],
-  "fest": [
-    "jstransformer-fest"
-  ],
-  "gaikan": [
-    "jstransformer-gaikan"
   ],
   "hbs": [
     "jstransformer-gray-matter",
@@ -175,10 +160,14 @@
   ],
   "md": [
     "jstransformer-markdown",
+    "jstransformer-markdown-it",
+    "jstransformer-marked",
     "jstransformer-remarkable"
   ],
   "markdown": [
     "jstransformer-markdown",
+    "jstransformer-markdown-it",
+    "jstransformer-marked",
     "jstransformer-remarkable"
   ],
   "markdown-it": [
@@ -186,6 +175,9 @@
   ],
   "marked": [
     "jstransformer-marked"
+  ],
+  "marko": [
+    "jstransformer-marko"
   ],
   "mhbs": [
     "jstransformer-mini-handlebars"
