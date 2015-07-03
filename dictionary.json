@@ -1,0 +1,278 @@
+{
+  "absurd": [
+    "jstransformer-absurd"
+  ],
+  "absurdjs": [
+    "jstransformer-absurd"
+  ],
+  "js": [
+    "jstransformer-absurd",
+    "jstransformer-jscss"
+  ],
+  "atpl": [
+    "jstransformer-atpl"
+  ],
+  "autoprefixer": [
+    "jstransformer-autoprefixer"
+  ],
+  "babel": [
+    "jstransformer-babel"
+  ],
+  "browserify": [
+    "jstransformer-browserify"
+  ],
+  "cdata": [
+    "jstransformer-cdata"
+  ],
+  "cdata-css": [
+    "jstransformer-cdata-css"
+  ],
+  "cdata-js": [
+    "jstransformer-cdata-js"
+  ],
+  "clean-css": [
+    "jstransformer-clean-css"
+  ],
+  "coffee": [
+    "jstransformer-coffee-script",
+    "jstransformer-coffeekup"
+  ],
+  "coffee-script": [
+    "jstransformer-coffee-script"
+  ],
+  "coffeecup": [
+    "jstransformer-coffeecup"
+  ],
+  "coffeekup": [
+    "jstransformer-coffeekup"
+  ],
+  "cson": [
+    "jstransformer-cson"
+  ],
+  "css": [
+    "jstransformer-css",
+    "jstransformer-jscss",
+    "jstransformer-myth",
+    "jstransformer-postcss",
+    "jstransformer-rework"
+  ],
+  "css-whitespace": [
+    "jstransformer-css-whitespace"
+  ],
+  "cssnext": [
+    "jstransformer-cssnext"
+  ],
+  "doiuse": [
+    "jstransformer-doiuse"
+  ],
+  "dot": [
+    "jstransformer-dot"
+  ],
+  "dust": [
+    "jstransformer-dust"
+  ],
+  "eco": [
+    "jstransformer-eco"
+  ],
+  "ect": [
+    "jstransformer-ect"
+  ],
+  "ejs": [
+    "jstransformer-ejs"
+  ],
+  "es6-template-strings": [
+    "jstransformer-es6-template-strings"
+  ],
+  "es6-template-string": [
+    "jstransformer-es6-template-strings"
+  ],
+  "escape-html": [
+    "jstransformer-escape-html"
+  ],
+  "fest": [
+    "jstransformer-fest"
+  ],
+  "gaikan": [
+    "jstransformer-gaikan"
+  ],
+  "hbs": [
+    "jstransformer-gray-matter",
+    "jstransformer-handlebars",
+    "jstransformer-mini-handlebars"
+  ],
+  "lodash": [
+    "jstransformer-gray-matter",
+    "jstransformer-lodash"
+  ],
+  "mustache": [
+    "jstransformer-gray-matter",
+    "jstransformer-mustache"
+  ],
+  "html": [
+    "jstransformer-gray-matter",
+    "jstransformer-lodash",
+    "jstransformer-toffee"
+  ],
+  "txt": [
+    "jstransformer-gray-matter"
+  ],
+  "haml": [
+    "jstransformer-haml",
+    "jstransformer-haml-coffee"
+  ],
+  "haml-coffee": [
+    "jstransformer-haml-coffee"
+  ],
+  "handlebars": [
+    "jstransformer-handlebars",
+    "jstransformer-mini-handlebars"
+  ],
+  "highlight": [
+    "jstransformer-highlight"
+  ],
+  "hogan": [
+    "jstransformer-hogan"
+  ],
+  "htmlmin": [
+    "jstransformer-html-minifier"
+  ],
+  "html-minifier": [
+    "jstransformer-html-minifier"
+  ],
+  "ini": [
+    "jstransformer-ini",
+    "jstransformer-toml"
+  ],
+  "jade": [
+    "jstransformer-jade"
+  ],
+  "jscss": [
+    "jstransformer-jscss"
+  ],
+  "json": [
+    "jstransformer-json"
+  ],
+  "jstransformer": [
+    "jstransformer-jstransformer"
+  ],
+  "jsx": [
+    "jstransformer-jsx"
+  ],
+  "just": [
+    "jstransformer-just"
+  ],
+  "less": [
+    "jstransformer-less"
+  ],
+  "liquor": [
+    "jstransformer-liquor"
+  ],
+  "ls": [
+    "jstransformer-livescript"
+  ],
+  "livescript": [
+    "jstransformer-livescript"
+  ],
+  "md": [
+    "jstransformer-markdown",
+    "jstransformer-remarkable"
+  ],
+  "markdown": [
+    "jstransformer-markdown",
+    "jstransformer-remarkable"
+  ],
+  "markdown-it": [
+    "jstransformer-markdown-it"
+  ],
+  "marked": [
+    "jstransformer-marked"
+  ],
+  "mhbs": [
+    "jstransformer-mini-handlebars"
+  ],
+  "mote": [
+    "jstransformer-mote"
+  ],
+  "myth": [
+    "jstransformer-myth"
+  ],
+  "nunjucks": [
+    "jstransformer-nunjucks"
+  ],
+  "octet": [
+    "jstransformer-octet"
+  ],
+  "plates": [
+    "jstransformer-plates"
+  ],
+  "postcss": [
+    "jstransformer-postcss"
+  ],
+  "purifycss": [
+    "jstransformer-purifycss"
+  ],
+  "qejs": [
+    "jstransformer-qejs"
+  ],
+  "remarkable": [
+    "jstransformer-remarkable"
+  ],
+  "rework": [
+    "jstransformer-rework"
+  ],
+  "sass": [
+    "jstransformer-sass"
+  ],
+  "styl": [
+    "jstransformer-styl",
+    "jstransformer-stylus"
+  ],
+  "stylus": [
+    "jstransformer-stylus"
+  ],
+  "supermarked": [
+    "jstransformer-supermarked"
+  ],
+  "svgo": [
+    "jstransformer-svgo"
+  ],
+  "swig": [
+    "jstransformer-swig"
+  ],
+  "templayed": [
+    "jstransformer-templayed"
+  ],
+  "toffee": [
+    "jstransformer-toffee"
+  ],
+  "toml": [
+    "jstransformer-toml"
+  ],
+  "uglify-js": [
+    "jstransformer-uglify-js"
+  ],
+  "underscore": [
+    "jstransformer-underscore"
+  ],
+  "verbatim": [
+    "jstransformer-verbatim"
+  ],
+  "walrus": [
+    "jstransformer-walrus"
+  ],
+  "wal": [
+    "jstransformer-walrus"
+  ],
+  "webpack": [
+    "jstransformer-webpack"
+  ],
+  "whiskers": [
+    "jstransformer-whiskers"
+  ],
+  "xml": [
+    "jstransformer-xml2js"
+  ],
+  "xml2js": [
+    "jstransformer-xml2js"
+  ]
+}
