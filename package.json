@@ -6,7 +6,8 @@
     "jstransformer"
   ],
   "files": [
-    "index.js"
+    "index.js",
+    "dictionary.json"
   ],
   "devDependencies": {
     "jstransformer": "0.0.2",
