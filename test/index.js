@@ -6,7 +6,7 @@ var jstransformer = require('jstransformer')
 test('should process on "md"', function() {
   var transform = inputFormatToTransformer('md')
   var md = jstransformer(transform)
-  var output = md.render('# Hello World!').body
+  var output = md.render('# Hello World!').body.trim()
   assert.equal(output, '<h1>Hello World!</h1>');
 })
 

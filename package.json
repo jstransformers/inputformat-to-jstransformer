@@ -1,6 +1,6 @@
 {
   "name": "inputformat-to-jstransformer",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "Load a JSTransformer from the provided inputFormat.",
   "keywords": [
     "jstransformer"
@@ -10,10 +10,10 @@
     "dictionary.json"
   ],
   "devDependencies": {
-    "jstransformer": "0.0.2",
+    "jstransformer": "^0.0.2",
     "jstransformer-remarkable": "^1.1.1",
     "lazy-require": "^2.0.0",
-    "list-of-jstransformers": "^0.0.2",
+    "list-of-jstransformers": "^1.0.0",
     "testit": "^2.0.2"
   },
   "scripts": {
