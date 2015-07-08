@@ -43,6 +43,9 @@
   "coffeekup": [
     "jstransformer-coffeekup"
   ],
+  "consolidate": [
+    "jstransformer-consolidate"
+  ],
   "cson": [
     "jstransformer-cson"
   ],
@@ -53,11 +56,17 @@
     "jstransformer-postcss",
     "jstransformer-rework"
   ],
+  "css-beautify": [
+    "jstransformer-css-beautify"
+  ],
   "css-whitespace": [
     "jstransformer-css-whitespace"
   ],
   "dot": [
     "jstransformer-dot"
+  ],
+  "duo": [
+    "jstransformer-duo"
   ],
   "dust": [
     "jstransformer-dust"
@@ -118,6 +127,9 @@
   "hogan": [
     "jstransformer-hogan"
   ],
+  "html-beautify": [
+    "jstransformer-html-beautify"
+  ],
   "htmlmin": [
     "jstransformer-html-minifier"
   ],
@@ -131,11 +143,20 @@
   "jade": [
     "jstransformer-jade"
   ],
+  "jqtpl": [
+    "jstransformer-jqtpl"
+  ],
+  "js-beautify": [
+    "jstransformer-js-beautify"
+  ],
   "jscss": [
     "jstransformer-jscss"
   ],
   "json": [
     "jstransformer-json"
+  ],
+  "jsrender": [
+    "jstransformer-jsrender"
   ],
   "jstransformer": [
     "jstransformer-jstransformer"
@@ -216,11 +237,10 @@
     "jstransformer-sass"
   ],
   "styl": [
-    "jstransformer-styl",
-    "jstransformer-stylus"
+    "jstransformer-styl"
   ],
-  "stylus": [
-    "jstransformer-stylus"
+  "stylecow": [
+    "jstransformer-stylecow"
   ],
   "supermarked": [
     "jstransformer-supermarked"
@@ -239,6 +259,12 @@
   ],
   "toml": [
     "jstransformer-toml"
+  ],
+  "ts": [
+    "jstransformer-typescript"
+  ],
+  "typescript": [
+    "jstransformer-typescript"
   ],
   "uglify-js": [
     "jstransformer-uglify-js"

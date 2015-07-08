@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.1.0: 2015-07-08
+
+- Added `.dictionary`
+
 ## v0.0.2: 2015-07-03
 
 - Updated list

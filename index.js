@@ -11,9 +11,10 @@ module.exports = function inputFormatToJsTransformer (inputFormat) {
     // Attempt to load one of the packages from the dictionary.
     try {
       return requireOne(dictionary[inputFormat])
-    }
-    catch (e) {
-      return null;
+    } catch (e) {
+      return null
     }
   }
 }
+
+module.exports.dictionary = dictionary

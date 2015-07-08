@@ -24,7 +24,16 @@ var md = jstransformer(md).render('# Hello World!').body
 // => '<h1>Hello World!</h1>'
 ```
 
-See [`dictionary.json`](dictionary.json) for a better idea of how this is done.
+### `.dictionary`
+
+The [`dictionary.json`](dictionary.json) array is also available:
+
+``` js
+var inputFormats = require('inputformat-to-jstransformer').dictionary
+if (inputFormats['tiff']) {
+  console.log('Input Formats of Tiff are supported.')
+}
+
 
 ## Update
 

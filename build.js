@@ -1,7 +1,6 @@
 'use strict'
 
 var list = require('list-of-jstransformers')
-var jstransformer = require('jstransformer')
 var lazyRequire = require('lazy-require')
 var fs = require('fs')
 
@@ -12,7 +11,7 @@ for (var i in list) {
   console.log(name)
   // Install and load the package.
   var transformer = lazyRequire('jstransformer-' + name)
-  if (transformer instanceof Error ) {
+  if (transformer instanceof Error) {
     console.log('- Failed to load ' + name)
     continue
   }
