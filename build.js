@@ -11,23 +11,16 @@ for (var i in list) {
   console.log(name)
   // Install and load the package.
   var transformer = lazyRequire('jstransformer-' + name)
-  if (transformer instanceof Error) {
-    console.log('- Failed to load ' + name)
-    continue
-  }
-
-  // Load the input formats for the transformer.
-  var inputFormats = transformer.inputFormats ? transformer.inputFormats : [name]
-  console.log(inputFormats)
-
-  for (var n in inputFormats) {
+  var formats = transformer.inputFormats || [name]
+  for (var n in formats) {
+    var format = formats[n]
     // Ensure the input format exists in the dictionary.
-    if (!dictionary[inputFormats[n]]) {
-      dictionary[inputFormats[n]] = []
+    if (!dictionary[format]) {
+      dictionary[format] = []
     }
 
     // Add the package to the input format.
-    dictionary[inputFormats[n]].push('jstransformer-' + name)
+    dictionary[format].push('jstransformer-' + name)
   }
 }
 

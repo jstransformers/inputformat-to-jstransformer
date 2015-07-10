@@ -12,6 +12,9 @@
   "atpl": [
     "jstransformer-atpl"
   ],
+  "autoprefixer": [
+    "jstransformer-autoprefixer"
+  ],
   "babel": [
     "jstransformer-babel"
   ],
@@ -62,6 +65,12 @@
   "css-whitespace": [
     "jstransformer-css-whitespace"
   ],
+  "cssnext": [
+    "jstransformer-cssnext"
+  ],
+  "doiuse": [
+    "jstransformer-doiuse"
+  ],
   "dot": [
     "jstransformer-dot"
   ],
@@ -88,6 +97,12 @@
   ],
   "escape-html": [
     "jstransformer-escape-html"
+  ],
+  "fest": [
+    "jstransformer-fest"
+  ],
+  "gaikan": [
+    "jstransformer-gaikan"
   ],
   "hbs": [
     "jstransformer-gray-matter",
@@ -117,6 +132,9 @@
   "haml-coffee": [
     "jstransformer-haml-coffee"
   ],
+  "hamljs": [
+    "jstransformer-hamljs"
+  ],
   "handlebars": [
     "jstransformer-handlebars",
     "jstransformer-mini-handlebars"
@@ -140,8 +158,14 @@
     "jstransformer-ini",
     "jstransformer-toml"
   ],
+  "j140": [
+    "jstransformer-j140"
+  ],
   "jade": [
     "jstransformer-jade"
+  ],
+  "jazz": [
+    "jstransformer-jazz"
   ],
   "jqtpl": [
     "jstransformer-jqtpl"
@@ -203,6 +227,9 @@
   "mhbs": [
     "jstransformer-mini-handlebars"
   ],
+  "mmd": [
+    "jstransformer-mmd"
+  ],
   "mote": [
     "jstransformer-mote"
   ],
@@ -230,17 +257,33 @@
   "remarkable": [
     "jstransformer-remarkable"
   ],
+  "resin": [
+    "jstransformer-resin"
+  ],
   "rework": [
     "jstransformer-rework"
+  ],
+  "rtlcss": [
+    "jstransformer-rtlcss"
   ],
   "sass": [
     "jstransformer-sass"
   ],
+  "scss": [
+    "jstransformer-scss"
+  ],
+  "slm": [
+    "jstransformer-slm"
+  ],
   "styl": [
-    "jstransformer-styl"
+    "jstransformer-styl",
+    "jstransformer-stylus"
   ],
   "stylecow": [
     "jstransformer-stylecow"
+  ],
+  "stylus": [
+    "jstransformer-stylus"
   ],
   "supermarked": [
     "jstransformer-supermarked"
