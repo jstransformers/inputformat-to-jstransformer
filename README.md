@@ -33,14 +33,16 @@ var inputFormats = require('inputformat-to-jstransformer').dictionary
 if (inputFormats['tiff']) {
   console.log('Input Formats of Tiff are supported.')
 }
+```
 
 
 ## Update
 
 To update `dictionary.json`, run:
-  ```
-  npm run build
-  ```
+
+```
+npm run build
+```
 
 ## License
 
