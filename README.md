@@ -2,8 +2,8 @@
 
 Load the first available JSTransformer from the provided `inputFormat`.
 
-[![Build Status](https://img.shields.io/travis/jstransformers/list-of-jstransformers/master.svg)](https://travis-ci.org/jstransformers/list-of-jstransformers)
-[![NPM version](https://img.shields.io/npm/v/list-of-jstransformers.svg)](https://www.npmjs.org/package/list-of-jstransformers)
+[![Build Status](https://img.shields.io/travis/jstransformers/inputformat-to-jstransformer/master.svg)](https://travis-ci.org/jstransformers/inputformat-to-jstransformer)
+[![NPM version](https://img.shields.io/npm/v/inputformat-to-jstransformer.svg)](https://www.npmjs.org/package/inputformat-to-jstransformer)
 
 ## Installation
 
