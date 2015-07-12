@@ -10,9 +10,9 @@ test('should process on "md"', function () {
   assert.equal(output, '<h1>Hello World!</h1>')
 })
 
-test('should return null when not found', function () {
+test('should return false when not found', function () {
   var transform = inputFormatToTransformer('no-input-format-found')
-  assert.equal(transform, null)
+  assert.equal(transform, false)
 })
 
 test('should retrieve the dictionary', function () {

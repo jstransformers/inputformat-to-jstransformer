@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.1.1: 2015-07-11
+
+- Fixed to return `false` when no transformer is found
+
 ## v1.1.0: 2015-07-08
 
 - Added `.dictionary`

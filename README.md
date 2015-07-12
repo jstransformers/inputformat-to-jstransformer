@@ -11,7 +11,7 @@ Load the first available JSTransformer from the provided `inputFormat`.
 
 ## API
 
-Returns the first package available to process the given input format. Will return `null` if no package is available to process the given input format.
+Returns the first package available to process the given input format. Will return `false` if no package is available to process the given input format.
 
 ```js
 var jstransformer = require('jstransformer')
