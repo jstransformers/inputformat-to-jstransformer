@@ -10,7 +10,8 @@
     "dictionary.json"
   ],
   "devDependencies": {
-    "jstransformer-remarkable": "^1.1.1",
+    "jstransformer": "0.0.2",
+    "jstransformer-marked": "0.0.2",
     "lazy-require": "^2.0.0",
     "list-of-jstransformers": "^1.0.0",
     "standard": "^4.5.2",
