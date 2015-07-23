@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.1.3: 2015-07-23
+
+- Updated dictionary
+
 ## v1.1.2: 2015-07-11
 
 - Fixed to return `false` when no transformer is found
