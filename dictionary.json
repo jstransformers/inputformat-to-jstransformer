@@ -46,6 +46,24 @@
   "coffeekup": [
     "jstransformer-coffeekup"
   ],
+  "md": [
+    "jstransformer-commonmark",
+    "jstransformer-markdown",
+    "jstransformer-markdown-it",
+    "jstransformer-marked",
+    "jstransformer-mmd",
+    "jstransformer-remarkable"
+  ],
+  "markdown": [
+    "jstransformer-commonmark",
+    "jstransformer-markdown",
+    "jstransformer-markdown-it",
+    "jstransformer-marked",
+    "jstransformer-remarkable"
+  ],
+  "commonmark": [
+    "jstransformer-commonmark"
+  ],
   "consolidate": [
     "jstransformer-consolidate"
   ],
@@ -80,6 +98,12 @@
   "dust": [
     "jstransformer-dust"
   ],
+  "eg": [
+    "jstransformer-earlgrey"
+  ],
+  "earlgrey": [
+    "jstransformer-earlgrey"
+  ],
   "eco": [
     "jstransformer-eco"
   ],
@@ -88,6 +112,9 @@
   ],
   "ejs": [
     "jstransformer-ejs"
+  ],
+  "envy-json": [
+    "jstransformer-envy-json"
   ],
   "es6-template-strings": [
     "jstransformer-es6-template-strings"
@@ -203,18 +230,6 @@
   "livescript": [
     "jstransformer-livescript"
   ],
-  "md": [
-    "jstransformer-markdown",
-    "jstransformer-markdown-it",
-    "jstransformer-marked",
-    "jstransformer-remarkable"
-  ],
-  "markdown": [
-    "jstransformer-markdown",
-    "jstransformer-markdown-it",
-    "jstransformer-marked",
-    "jstransformer-remarkable"
-  ],
   "markdown-it": [
     "jstransformer-markdown-it"
   ],
@@ -228,6 +243,9 @@
     "jstransformer-mini-handlebars"
   ],
   "mmd": [
+    "jstransformer-mmd"
+  ],
+  "multimarkdown": [
     "jstransformer-mmd"
   ],
   "mote": [
@@ -244,6 +262,12 @@
   ],
   "plates": [
     "jstransformer-plates"
+  ],
+  "pcss": [
+    "jstransformer-pleeease"
+  ],
+  "pleeease": [
+    "jstransformer-pleeease"
   ],
   "postcss": [
     "jstransformer-postcss"
@@ -303,6 +327,9 @@
   "toml": [
     "jstransformer-toml"
   ],
+  "twig": [
+    "jstransformer-twig"
+  ],
   "ts": [
     "jstransformer-typescript"
   ],
@@ -314,6 +341,9 @@
   ],
   "underscore": [
     "jstransformer-underscore"
+  ],
+  "vash": [
+    "jstransformer-vash"
   ],
   "verbatim": [
     "jstransformer-verbatim"
