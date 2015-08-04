@@ -9,6 +9,25 @@
     "jstransformer-absurd",
     "jstransformer-jscss"
   ],
+  "analyze-css": [
+    "jstransformer-analyze-css"
+  ],
+  "css": [
+    "jstransformer-analyze-css",
+    "jstransformer-css",
+    "jstransformer-jscss",
+    "jstransformer-myth",
+    "jstransformer-postcss",
+    "jstransformer-rework"
+  ],
+  "scss": [
+    "jstransformer-analyze-css",
+    "jstransformer-scss"
+  ],
+  "sass": [
+    "jstransformer-analyze-css",
+    "jstransformer-sass"
+  ],
   "atpl": [
     "jstransformer-atpl"
   ],
@@ -51,15 +70,16 @@
     "jstransformer-markdown",
     "jstransformer-markdown-it",
     "jstransformer-marked",
-    "jstransformer-mmd",
-    "jstransformer-remarkable"
+    "jstransformer-remarkable",
+    "jstransformer-supermarked"
   ],
   "markdown": [
     "jstransformer-commonmark",
     "jstransformer-markdown",
     "jstransformer-markdown-it",
     "jstransformer-marked",
-    "jstransformer-remarkable"
+    "jstransformer-remarkable",
+    "jstransformer-supermarked"
   ],
   "commonmark": [
     "jstransformer-commonmark"
@@ -69,13 +89,6 @@
   ],
   "cson": [
     "jstransformer-cson"
-  ],
-  "css": [
-    "jstransformer-css",
-    "jstransformer-jscss",
-    "jstransformer-myth",
-    "jstransformer-postcss",
-    "jstransformer-rework"
   ],
   "css-beautify": [
     "jstransformer-css-beautify"
@@ -111,7 +124,8 @@
     "jstransformer-ect"
   ],
   "ejs": [
-    "jstransformer-ejs"
+    "jstransformer-ejs",
+    "jstransformer-qejs"
   ],
   "envy-json": [
     "jstransformer-envy-json"
@@ -147,7 +161,9 @@
   "html": [
     "jstransformer-gray-matter",
     "jstransformer-lodash",
-    "jstransformer-toffee"
+    "jstransformer-qejs",
+    "jstransformer-toffee",
+    "jstransformer-verbatim"
   ],
   "txt": [
     "jstransformer-gray-matter"
@@ -169,6 +185,12 @@
   "highlight": [
     "jstransformer-highlight"
   ],
+  "highlightjs": [
+    "jstransformer-highlight"
+  ],
+  "highlight.js": [
+    "jstransformer-highlight"
+  ],
   "hogan": [
     "jstransformer-hogan"
   ],
@@ -180,6 +202,9 @@
   ],
   "html-minifier": [
     "jstransformer-html-minifier"
+  ],
+  "htmling": [
+    "jstransformer-htmling"
   ],
   "ini": [
     "jstransformer-ini",
@@ -245,9 +270,6 @@
   "mmd": [
     "jstransformer-mmd"
   ],
-  "multimarkdown": [
-    "jstransformer-mmd"
-  ],
   "mote": [
     "jstransformer-mote"
   ],
@@ -290,14 +312,11 @@
   "rtlcss": [
     "jstransformer-rtlcss"
   ],
-  "sass": [
-    "jstransformer-sass"
-  ],
-  "scss": [
-    "jstransformer-scss"
-  ],
   "slm": [
     "jstransformer-slm"
+  ],
+  "string-template": [
+    "jstransformer-string-template"
   ],
   "styl": [
     "jstransformer-styl",
@@ -344,9 +363,6 @@
   ],
   "vash": [
     "jstransformer-vash"
-  ],
-  "verbatim": [
-    "jstransformer-verbatim"
   ],
   "walrus": [
     "jstransformer-walrus"
