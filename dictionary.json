@@ -7,18 +7,20 @@
   ],
   "js": [
     "jstransformer-absurd",
-    "jstransformer-jscss"
+    "jstransformer-jscss-lite"
   ],
   "analyze-css": [
     "jstransformer-analyze-css"
   ],
   "css": [
     "jstransformer-analyze-css",
+    "jstransformer-bless",
     "jstransformer-css",
-    "jstransformer-jscss",
+    "jstransformer-jscss-lite",
     "jstransformer-myth",
     "jstransformer-postcss",
-    "jstransformer-rework"
+    "jstransformer-rework",
+    "jstransformer-suitcss"
   ],
   "scss": [
     "jstransformer-analyze-css",
@@ -36,6 +38,26 @@
   ],
   "babel": [
     "jstransformer-babel"
+  ],
+  "bless": [
+    "jstransformer-bless"
+  ],
+  "bliss": [
+    "jstransformer-bliss"
+  ],
+  "html": [
+    "jstransformer-bliss",
+    "jstransformer-gray-matter",
+    "jstransformer-html2jade",
+    "jstransformer-jst",
+    "jstransformer-lodash",
+    "jstransformer-nunjucks",
+    "jstransformer-qejs",
+    "jstransformer-ractive",
+    "jstransformer-riotjs",
+    "jstransformer-to-markdown",
+    "jstransformer-toffee",
+    "jstransformer-verbatim"
   ],
   "browserify": [
     "jstransformer-browserify"
@@ -70,6 +92,8 @@
     "jstransformer-markdown",
     "jstransformer-markdown-it",
     "jstransformer-marked",
+    "jstransformer-mdast",
+    "jstransformer-megamark",
     "jstransformer-remarkable",
     "jstransformer-supermarked"
   ],
@@ -78,6 +102,8 @@
     "jstransformer-markdown",
     "jstransformer-markdown-it",
     "jstransformer-marked",
+    "jstransformer-mdast",
+    "jstransformer-megamark",
     "jstransformer-remarkable",
     "jstransformer-supermarked"
   ],
@@ -158,13 +184,6 @@
     "jstransformer-gray-matter",
     "jstransformer-mustache"
   ],
-  "html": [
-    "jstransformer-gray-matter",
-    "jstransformer-lodash",
-    "jstransformer-qejs",
-    "jstransformer-toffee",
-    "jstransformer-verbatim"
-  ],
   "txt": [
     "jstransformer-gray-matter"
   ],
@@ -174,6 +193,9 @@
   ],
   "haml-coffee": [
     "jstransformer-haml-coffee"
+  ],
+  "hamlet": [
+    "jstransformer-hamlet"
   ],
   "hamljs": [
     "jstransformer-hamljs"
@@ -203,6 +225,9 @@
   "html-minifier": [
     "jstransformer-html-minifier"
   ],
+  "html2jade": [
+    "jstransformer-html2jade"
+  ],
   "htmling": [
     "jstransformer-htmling"
   ],
@@ -226,13 +251,23 @@
     "jstransformer-js-beautify"
   ],
   "jscss": [
-    "jstransformer-jscss"
+    "jstransformer-jscss",
+    "jstransformer-jscss-lite"
+  ],
+  "jscss-lite": [
+    "jstransformer-jscss-lite"
   ],
   "json": [
     "jstransformer-json"
   ],
   "jsrender": [
     "jstransformer-jsrender"
+  ],
+  "jst": [
+    "jstransformer-jst"
+  ],
+  "text": [
+    "jstransformer-jst"
   ],
   "jstransformer": [
     "jstransformer-jstransformer"
@@ -264,6 +299,12 @@
   "marko": [
     "jstransformer-marko"
   ],
+  "mdast": [
+    "jstransformer-mdast"
+  ],
+  "megamark": [
+    "jstransformer-megamark"
+  ],
   "mhbs": [
     "jstransformer-mini-handlebars"
   ],
@@ -281,6 +322,12 @@
   ],
   "octet": [
     "jstransformer-octet"
+  ],
+  "opal": [
+    "jstransformer-opalcss"
+  ],
+  "opalcss": [
+    "jstransformer-opalcss"
   ],
   "plates": [
     "jstransformer-plates"
@@ -300,6 +347,9 @@
   "qejs": [
     "jstransformer-qejs"
   ],
+  "ractive": [
+    "jstransformer-ractive"
+  ],
   "remarkable": [
     "jstransformer-remarkable"
   ],
@@ -308,6 +358,12 @@
   ],
   "rework": [
     "jstransformer-rework"
+  ],
+  "riot": [
+    "jstransformer-riot"
+  ],
+  "riotjs": [
+    "jstransformer-riotjs"
   ],
   "rtlcss": [
     "jstransformer-rtlcss"
@@ -328,6 +384,9 @@
   "stylus": [
     "jstransformer-stylus"
   ],
+  "suitcss": [
+    "jstransformer-suitcss"
+  ],
   "supermarked": [
     "jstransformer-supermarked"
   ],
@@ -340,11 +399,23 @@
   "templayed": [
     "jstransformer-templayed"
   ],
+  "to-markdown": [
+    "jstransformer-to-markdown"
+  ],
   "toffee": [
     "jstransformer-toffee"
   ],
   "toml": [
     "jstransformer-toml"
+  ],
+  "es6": [
+    "jstransformer-traceur"
+  ],
+  "traceur": [
+    "jstransformer-traceur"
+  ],
+  "transparency": [
+    "jstransformer-transparency"
   ],
   "twig": [
     "jstransformer-twig"
