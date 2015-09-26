@@ -5,10 +5,6 @@
   "absurdjs": [
     "jstransformer-absurd"
   ],
-  "js": [
-    "jstransformer-absurd",
-    "jstransformer-jscss-lite"
-  ],
   "analyze-css": [
     "jstransformer-analyze-css"
   ],
@@ -20,6 +16,7 @@
     "jstransformer-myth",
     "jstransformer-postcss",
     "jstransformer-rework",
+    "jstransformer-sheetify",
     "jstransformer-suitcss"
   ],
   "scss": [
@@ -35,6 +32,10 @@
   ],
   "autoprefixer": [
     "jstransformer-autoprefixer"
+  ],
+  "es6": [
+    "jstransformer-babel",
+    "jstransformer-traceur"
   ],
   "babel": [
     "jstransformer-babel"
@@ -55,7 +56,6 @@
     "jstransformer-qejs",
     "jstransformer-ractive",
     "jstransformer-riotjs",
-    "jstransformer-to-markdown",
     "jstransformer-toffee",
     "jstransformer-verbatim"
   ],
@@ -95,6 +95,7 @@
     "jstransformer-mdast",
     "jstransformer-megamark",
     "jstransformer-remarkable",
+    "jstransformer-rho",
     "jstransformer-supermarked"
   ],
   "markdown": [
@@ -105,6 +106,7 @@
     "jstransformer-mdast",
     "jstransformer-megamark",
     "jstransformer-remarkable",
+    "jstransformer-rho",
     "jstransformer-supermarked"
   ],
   "commonmark": [
@@ -153,6 +155,9 @@
     "jstransformer-ejs",
     "jstransformer-qejs"
   ],
+  "engine": [
+    "jstransformer-engine"
+  ],
   "envy-json": [
     "jstransformer-envy-json"
   ],
@@ -165,8 +170,14 @@
   "escape-html": [
     "jstransformer-escape-html"
   ],
+  "esformatter": [
+    "jstransformer-esformatter"
+  ],
   "fest": [
     "jstransformer-fest"
+  ],
+  "function": [
+    "jstransformer-function"
   ],
   "gaikan": [
     "jstransformer-gaikan"
@@ -205,7 +216,8 @@
     "jstransformer-mini-handlebars"
   ],
   "highlight": [
-    "jstransformer-highlight"
+    "jstransformer-highlight",
+    "jstransformer-prismjs"
   ],
   "highlightjs": [
     "jstransformer-highlight"
@@ -231,6 +243,9 @@
   "htmling": [
     "jstransformer-htmling"
   ],
+  "imba": [
+    "jstransformer-imba"
+  ],
   "ini": [
     "jstransformer-ini",
     "jstransformer-toml"
@@ -255,6 +270,9 @@
     "jstransformer-jscss-lite"
   ],
   "jscss-lite": [
+    "jstransformer-jscss-lite"
+  ],
+  "js": [
     "jstransformer-jscss-lite"
   ],
   "json": [
@@ -305,11 +323,20 @@
   "megamark": [
     "jstransformer-megamark"
   ],
+  "microtemplate": [
+    "jstransformer-microtemplate"
+  ],
   "mhbs": [
     "jstransformer-mini-handlebars"
   ],
   "mmd": [
     "jstransformer-mmd"
+  ],
+  "mold": [
+    "jstransformer-mold"
+  ],
+  "moldbar": [
+    "jstransformer-mold"
   ],
   "mote": [
     "jstransformer-mote"
@@ -341,6 +368,12 @@
   "postcss": [
     "jstransformer-postcss"
   ],
+  "prismjs": [
+    "jstransformer-prismjs"
+  ],
+  "prism": [
+    "jstransformer-prismjs"
+  ],
   "purifycss": [
     "jstransformer-purifycss"
   ],
@@ -359,6 +392,9 @@
   "rework": [
     "jstransformer-rework"
   ],
+  "rho": [
+    "jstransformer-rho"
+  ],
   "riot": [
     "jstransformer-riot"
   ],
@@ -367,6 +403,9 @@
   ],
   "rtlcss": [
     "jstransformer-rtlcss"
+  ],
+  "sheetify": [
+    "jstransformer-sheetify"
   ],
   "slm": [
     "jstransformer-slm"
@@ -393,6 +432,12 @@
   "svgo": [
     "jstransformer-svgo"
   ],
+  "sweetjs": [
+    "jstransformer-sweetjs"
+  ],
+  "sweetjsbar": [
+    "jstransformer-sweetjs"
+  ],
   "swig": [
     "jstransformer-swig"
   ],
@@ -407,9 +452,6 @@
   ],
   "toml": [
     "jstransformer-toml"
-  ],
-  "es6": [
-    "jstransformer-traceur"
   ],
   "traceur": [
     "jstransformer-traceur"
