@@ -14,12 +14,12 @@
     "jstransformer-marked": "^1.0.1",
     "lazy-require": "^2.0.0",
     "list-of-jstransformers": "^1.0.5",
-    "standard": "^5.3.1",
+    "semistandard": "^7.0.2",
     "testit": "^2.0.2"
   },
   "scripts": {
     "build": "node build",
-    "test": "node test && standard"
+    "test": "node test && semistandard"
   },
   "repository": {
     "type": "git",
