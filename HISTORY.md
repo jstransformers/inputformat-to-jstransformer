@@ -1,5 +1,10 @@
 # Changelog
 
+## v1.1.6: 2015-11-01
+
+- Updated dictionary
+- Sorted the dictionary
+
 ## v1.1.5: 2015-09-26
 
 - Updated dictionary

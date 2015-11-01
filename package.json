@@ -1,6 +1,6 @@
 {
   "name": "inputformat-to-jstransformer",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "description": "Load a JSTransformer from the provided inputFormat.",
   "keywords": [
     "jstransformer"
@@ -15,11 +15,15 @@
     "lazy-require": "^2.0.0",
     "list-of-jstransformers": "^1.0.5",
     "semistandard": "^7.0.2",
+    "sort-json": "^1.1.1",
     "testit": "^2.0.2"
   },
   "scripts": {
     "build": "node build",
     "test": "node test && semistandard"
+  },
+  "engines": {
+    "node": ">=0.10.36"
   },
   "repository": {
     "type": "git",

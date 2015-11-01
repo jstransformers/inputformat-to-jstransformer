@@ -3,6 +3,7 @@
 var list = require('list-of-jstransformers');
 var lazyRequire = require('lazy-require');
 var fs = require('fs');
+var sortJson = require('sort-json');
 
 var dictionary = {};
 
@@ -24,4 +25,5 @@ for (var i in list) {
   }
 }
 
-fs.writeFileSync('dictionary.json', JSON.stringify(dictionary, null, 2));
+var sorted = sortJson(dictionary);
+fs.writeFileSync('dictionary.json', JSON.stringify(sorted, null, 2));
