@@ -10,7 +10,7 @@
     "dictionary.json"
   ],
   "devDependencies": {
-    "jstransformer": "^0.0.3",
+    "jstransformer": "^0.0.4",
     "jstransformer-marked": "^1.0.1",
     "lazy-require": "^2.0.0",
     "list-of-jstransformers": "^1.0.5",
