@@ -3,7 +3,7 @@
 Load the first available [JSTransformer](https://github.com/jstransformers/jstransformer) from the provided `inputFormat`.
 
 [![Build Status](https://img.shields.io/travis/jstransformers/inputformat-to-jstransformer/master.svg)](https://travis-ci.org/jstransformers/inputformat-to-jstransformer)
-[![Dependency Status](https://david-dm.org/jstransformers/inputformat-to-jstransformer.png)](https://david-dm.org/jstransformers/inputformat-to-jstransformer)
+[![Dependency Status](https://img.shields.io/david/jstransformers/inputformat-to-jstransformer.svg)](https://david-dm.org/jstransformers/inputformat-to-jstransformer)
 [![NPM version](https://img.shields.io/npm/v/inputformat-to-jstransformer.svg)](https://www.npmjs.org/package/inputformat-to-jstransformer)
 
 ## Installation
