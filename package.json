@@ -14,7 +14,7 @@
     "jstransformer-marked": "^1.0.1",
     "lazy-require": "^2.0.0",
     "list-of-jstransformers": "^1.0.5",
-    "semistandard": "^7.0.2",
+    "semistandard": "^8.0.0",
     "sort-json": "^1.1.1",
     "testit": "^2.0.2"
   },
