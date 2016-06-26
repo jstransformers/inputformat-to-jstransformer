@@ -12,9 +12,6 @@
     "jstransformer-atpl",
     "jstransformer-consolidate"
   ],
-  "autoprefixer": [
-    "jstransformer-autoprefixer"
-  ],
   "babel": [
     "jstransformer-babel"
   ],
@@ -62,15 +59,14 @@
     "jstransformer-cson"
   ],
   "css": [
-    "jstransformer-analyze-css",
+    "jstransformer-autoprefixer",
     "jstransformer-bless",
     "jstransformer-css",
+    "jstransformer-jscss",
     "jstransformer-jscss-lite",
     "jstransformer-myth",
     "jstransformer-postcss",
-    "jstransformer-rework",
-    "jstransformer-sheetify",
-    "jstransformer-suitcss"
+    "jstransformer-rework"
   ],
   "css-beautify": [
     "jstransformer-css-beautify"
@@ -78,11 +74,8 @@
   "css-whitespace": [
     "jstransformer-css-whitespace"
   ],
-  "cssnext": [
-    "jstransformer-cssnext"
-  ],
-  "doiuse": [
-    "jstransformer-doiuse"
+  "cssmin": [
+    "jstransformer-clean-css"
   ],
   "dot": [
     "jstransformer-consolidate",
@@ -145,13 +138,14 @@
   "function": [
     "jstransformer-function"
   ],
-  "gaikan": [
-    "jstransformer-gaikan"
+  "gotpl": [
+    "jstransformer-gotpl"
   ],
   "haml": [
     "jstransformer-consolidate",
     "jstransformer-haml",
-    "jstransformer-haml-coffee"
+    "jstransformer-haml-coffee",
+    "jstransformer-hamljs"
   ],
   "haml-coffee": [
     "jstransformer-consolidate",
@@ -199,7 +193,6 @@
     "jstransformer-jst",
     "jstransformer-lodash",
     "jstransformer-nunjucks",
-    "jstransformer-qejs",
     "jstransformer-ractive",
     "jstransformer-riotjs",
     "jstransformer-to-markdown",
@@ -245,6 +238,7 @@
     "jstransformer-jqtpl"
   ],
   "js": [
+    "jstransformer-jscss",
     "jstransformer-jscss-lite"
   ],
   "js-beautify": [
@@ -302,8 +296,8 @@
     "jstransformer-markdown",
     "jstransformer-markdown-it",
     "jstransformer-marked",
-    "jstransformer-mdast",
     "jstransformer-megamark",
+    "jstransformer-remark",
     "jstransformer-remarkable",
     "jstransformer-rho",
     "jstransformer-supermarked"
@@ -322,14 +316,12 @@
     "jstransformer-markdown",
     "jstransformer-markdown-it",
     "jstransformer-marked",
-    "jstransformer-mdast",
     "jstransformer-megamark",
+    "jstransformer-mmd",
+    "jstransformer-remark",
     "jstransformer-remarkable",
     "jstransformer-rho",
     "jstransformer-supermarked"
-  ],
-  "mdast": [
-    "jstransformer-mdast"
   ],
   "megamark": [
     "jstransformer-megamark"
@@ -340,18 +332,21 @@
   "microtemplate": [
     "jstransformer-microtemplate"
   ],
+  "mjml": [
+    "jstransformer-mjml"
+  ],
   "mmd": [
     "jstransformer-mmd"
   ],
   "mold": [
     "jstransformer-mold"
   ],
-  "moldbar": [
-    "jstransformer-mold"
-  ],
   "mote": [
     "jstransformer-consolidate",
     "jstransformer-mote"
+  ],
+  "multimarkdown": [
+    "jstransformer-mmd"
   ],
   "mustache": [
     "jstransformer-consolidate",
@@ -386,11 +381,18 @@
   "postcss": [
     "jstransformer-postcss"
   ],
+  "posthtml": [
+    "jstransformer-posthtml"
+  ],
   "prism": [
     "jstransformer-prismjs"
   ],
   "prismjs": [
     "jstransformer-prismjs"
+  ],
+  "pug": [
+    "jstransformer-consolidate",
+    "jstransformer-pug"
   ],
   "purifycss": [
     "jstransformer-purifycss"
@@ -406,6 +408,9 @@
   "react": [
     "jstransformer-consolidate"
   ],
+  "remark": [
+    "jstransformer-remark"
+  ],
   "remarkable": [
     "jstransformer-remarkable"
   ],
@@ -418,27 +423,20 @@
   "rho": [
     "jstransformer-rho"
   ],
-  "riot": [
-    "jstransformer-riot"
-  ],
   "riotjs": [
     "jstransformer-riotjs"
   ],
-  "rtlcss": [
-    "jstransformer-rtlcss"
-  ],
   "sass": [
-    "jstransformer-analyze-css",
     "jstransformer-sass"
   ],
   "scss": [
-    "jstransformer-analyze-css",
     "jstransformer-scss"
   ],
   "sheetify": [
     "jstransformer-sheetify"
   ],
   "slm": [
+    "jstransformer-consolidate",
     "jstransformer-slm"
   ],
   "string-template": [
@@ -463,10 +461,10 @@
   "svgo": [
     "jstransformer-svgo"
   ],
-  "sweetjs": [
+  "sweet": [
     "jstransformer-sweetjs"
   ],
-  "sweetjsbar": [
+  "sweetjs": [
     "jstransformer-sweetjs"
   ],
   "swig": [
@@ -500,6 +498,7 @@
     "jstransformer-typescript"
   ],
   "twig": [
+    "jstransformer-consolidate",
     "jstransformer-twig"
   ],
   "txt": [
@@ -516,6 +515,7 @@
     "jstransformer-underscore"
   ],
   "vash": [
+    "jstransformer-consolidate",
     "jstransformer-vash"
   ],
   "wal": [
@@ -531,9 +531,6 @@
   "whiskers": [
     "jstransformer-consolidate",
     "jstransformer-whiskers"
-  ],
-  "xml": [
-    "jstransformer-xml2js"
   ],
   "xml2js": [
     "jstransformer-xml2js"

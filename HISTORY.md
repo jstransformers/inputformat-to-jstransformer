@@ -1,5 +1,10 @@
 # Changelog
 
+## v1.1.7: 2016-06-26
+
+- Updated dictionary
+- Switch to `npm` for building the dictionary
+
 ## v1.1.6: 2015-11-01
 
 - Updated dictionary
