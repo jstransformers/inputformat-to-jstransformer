@@ -12,11 +12,11 @@
   "devDependencies": {
     "jstransformer": "^1.0.0",
     "jstransformer-marked": "^1.0.1",
-    "list-of-jstransformers": "^1.0.5",
-    "npm": "^3.9.5",
+    "list-of-jstransformers": "^1.0.14",
+    "npm": "^3.10.2",
     "semistandard": "^8.0.0",
-    "sort-json": "^1.1.1",
-    "testit": "^2.0.2"
+    "sort-json": "^1.2.0",
+    "testit": "^2.0.5"
   },
   "scripts": {
     "build": "node build",
@@ -36,6 +36,6 @@
   },
   "license": "MIT",
   "dependencies": {
-    "require-one": "^1.0.0"
+    "require-one": "^1.0.2"
   }
 }

@@ -24,6 +24,9 @@
   "browserify": [
     "jstransformer-browserify"
   ],
+  "buble": [
+    "jstransformer-buble"
+  ],
   "cdata": [
     "jstransformer-cdata"
   ],
@@ -227,7 +230,8 @@
   ],
   "jade": [
     "jstransformer-consolidate",
-    "jstransformer-jade"
+    "jstransformer-jade",
+    "jstransformer-pug"
   ],
   "jazz": [
     "jstransformer-consolidate",
