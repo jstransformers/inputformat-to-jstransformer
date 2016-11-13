@@ -8,9 +8,15 @@
   "analyze-css": [
     "jstransformer-analyze-css"
   ],
+  "arc-templates": [
+    "jstransformer-consolidate"
+  ],
   "atpl": [
     "jstransformer-atpl",
     "jstransformer-consolidate"
+  ],
+  "autoprefixer": [
+    "jstransformer-autoprefixer"
   ],
   "babel": [
     "jstransformer-babel"
@@ -44,10 +50,12 @@
   ],
   "coffee": [
     "jstransformer-coffee-script",
-    "jstransformer-coffeekup"
+    "jstransformer-coffeekup",
+    "jstransformer-iced-coffee-script"
   ],
   "coffee-script": [
-    "jstransformer-coffee-script"
+    "jstransformer-coffee-script",
+    "jstransformer-iced-coffee-script"
   ],
   "coffeecup": [
     "jstransformer-coffeecup"
@@ -195,7 +203,6 @@
     "jstransformer-html2jade",
     "jstransformer-jst",
     "jstransformer-lodash",
-    "jstransformer-nunjucks",
     "jstransformer-ractive",
     "jstransformer-riotjs",
     "jstransformer-to-markdown",
@@ -242,6 +249,7 @@
     "jstransformer-jqtpl"
   ],
   "js": [
+    "jstransformer-babel",
     "jstransformer-jscss",
     "jstransformer-jscss-lite"
   ],
@@ -278,7 +286,8 @@
     "jstransformer-less"
   ],
   "liquid": [
-    "jstransformer-consolidate"
+    "jstransformer-consolidate",
+    "jstransformer-liquid"
   ],
   "liquor": [
     "jstransformer-consolidate",
@@ -313,6 +322,7 @@
     "jstransformer-marked"
   ],
   "marko": [
+    "jstransformer-consolidate",
     "jstransformer-marko"
   ],
   "md": [
@@ -360,6 +370,9 @@
   "myth": [
     "jstransformer-myth"
   ],
+  "njk": [
+    "jstransformer-nunjucks"
+  ],
   "nunjucks": [
     "jstransformer-consolidate",
     "jstransformer-nunjucks"
@@ -387,6 +400,9 @@
   ],
   "posthtml": [
     "jstransformer-posthtml"
+  ],
+  "precss": [
+    "jstransformer-precss"
   ],
   "prism": [
     "jstransformer-prismjs"
