@@ -24,7 +24,7 @@
     "posttest": "semistandard"
   },
   "engines": {
-    "node": ">= 4"
+    "node": ">=6"
   },
   "repository": {
     "type": "git",
