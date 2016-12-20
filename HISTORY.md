@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.1.10: 2016-12-19
+
+- Updated dictionary
+
 ## v1.1.9: 2016-11-12
 
 - Updated dictionary

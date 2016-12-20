@@ -1,6 +1,9 @@
 {
+  "dependencies": {
+    "require-one": "^1.0.2"
+  },
   "name": "inputformat-to-jstransformer",
-  "version": "1.1.9",
+  "version": "1.1.10",
   "description": "Load a JSTransformer from the provided inputFormat.",
   "keywords": [
     "jstransformer"
@@ -11,10 +14,10 @@
   ],
   "devDependencies": {
     "jstransformer": "^1.0.0",
-    "jstransformer-marked": "^1.0.1",
-    "list-of-jstransformers": "^1.0.15",
-    "npm": "^4.0.2",
-    "semistandard": "^9.1.0",
+    "jstransformer-marked": "^1.0.2",
+    "list-of-jstransformers": "^1.0.17",
+    "npm": "^4.0.5",
+    "semistandard": "^9.2.1",
     "sort-json": "^1.4.0",
     "testit": "^2.1.2"
   },
@@ -34,8 +37,5 @@
     "name": "JSTransformers Team",
     "url": "http://github.com/orgs/jstransformers/people"
   },
-  "license": "MIT",
-  "dependencies": {
-    "require-one": "^1.0.2"
-  }
+  "license": "MIT"
 }
