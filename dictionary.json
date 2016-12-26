@@ -28,7 +28,14 @@
     "jstransformer-bliss"
   ],
   "bracket": [
+    "jstransformer-bracket-template",
     "jstransformer-consolidate"
+  ],
+  "bracket-template": [
+    "jstransformer-bracket-template"
+  ],
+  "brkt": [
+    "jstransformer-bracket-template"
   ],
   "browserify": [
     "jstransformer-browserify"
@@ -77,8 +84,7 @@
     "jstransformer-css",
     "jstransformer-csso",
     "jstransformer-jscss",
-    "jstransformer-jscss-lite",
-    "jstransformer-myth"
+    "jstransformer-jscss-lite"
   ],
   "css-beautify": [
     "jstransformer-css-beautify"
@@ -156,6 +162,9 @@
   "gotpl": [
     "jstransformer-gotpl"
   ],
+  "gray-matter": [
+    "jstransformer-gray-matter"
+  ],
   "haml": [
     "jstransformer-consolidate",
     "jstransformer-haml",
@@ -182,7 +191,6 @@
     "jstransformer-mini-handlebars"
   ],
   "hbs": [
-    "jstransformer-gray-matter",
     "jstransformer-handlebars",
     "jstransformer-mini-handlebars"
   ],
@@ -205,9 +213,9 @@
   ],
   "html": [
     "jstransformer-bliss",
-    "jstransformer-gray-matter",
     "jstransformer-html-minifier",
     "jstransformer-html2jade",
+    "jstransformer-jade-jekyll",
     "jstransformer-jst",
     "jstransformer-lodash",
     "jstransformer-ractive",
@@ -230,6 +238,9 @@
   ],
   "htmlmin": [
     "jstransformer-html-minifier"
+  ],
+  "i-template": [
+    "jstransformer-i-template"
   ],
   "imba": [
     "jstransformer-imba"
@@ -288,6 +299,9 @@
     "jstransformer-consolidate",
     "jstransformer-just"
   ],
+  "katex": [
+    "jstransformer-katex"
+  ],
   "lebab": [
     "jstransformer-lebab"
   ],
@@ -310,7 +324,6 @@
   ],
   "lodash": [
     "jstransformer-consolidate",
-    "jstransformer-gray-matter",
     "jstransformer-lodash"
   ],
   "ls": [
@@ -321,7 +334,10 @@
     "jstransformer-markdown",
     "jstransformer-markdown-it",
     "jstransformer-marked",
+    "jstransformer-marky-markdown",
+    "jstransformer-mdast",
     "jstransformer-megamark",
+    "jstransformer-pfm",
     "jstransformer-remark",
     "jstransformer-remarkable",
     "jstransformer-rho",
@@ -330,24 +346,37 @@
   "markdown-it": [
     "jstransformer-markdown-it"
   ],
+  "markdown-yml": [
+    "jstransformer-markdown-yml"
+  ],
   "marked": [
-    "jstransformer-marked"
+    "jstransformer-marked",
+    "jstransformer-pfm"
   ],
   "marko": [
     "jstransformer-consolidate",
     "jstransformer-marko"
+  ],
+  "marky-markdown": [
+    "jstransformer-marky-markdown"
   ],
   "md": [
     "jstransformer-commonmark",
     "jstransformer-markdown",
     "jstransformer-markdown-it",
     "jstransformer-marked",
+    "jstransformer-marky-markdown",
+    "jstransformer-mdast",
     "jstransformer-megamark",
     "jstransformer-mmd",
+    "jstransformer-pfm",
     "jstransformer-remark",
     "jstransformer-remarkable",
     "jstransformer-rho",
     "jstransformer-supermarked"
+  ],
+  "mdast": [
+    "jstransformer-mdast"
   ],
   "megamark": [
     "jstransformer-megamark"
@@ -376,7 +405,6 @@
   ],
   "mustache": [
     "jstransformer-consolidate",
-    "jstransformer-gray-matter",
     "jstransformer-mustache"
   ],
   "myth": [
@@ -431,6 +459,9 @@
   "pug": [
     "jstransformer-consolidate",
     "jstransformer-pug"
+  ],
+  "purify-css": [
+    "jstransformer-purifycss"
   ],
   "purifycss": [
     "jstransformer-purifycss"
@@ -548,9 +579,6 @@
     "jstransformer-consolidate",
     "jstransformer-node-twig",
     "jstransformer-twig"
-  ],
-  "txt": [
-    "jstransformer-gray-matter"
   ],
   "typescript": [
     "jstransformer-typescript"

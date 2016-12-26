@@ -3,7 +3,7 @@
     "require-one": "^1.0.2"
   },
   "name": "inputformat-to-jstransformer",
-  "version": "1.1.10",
+  "version": "1.2.0",
   "description": "Load a JSTransformer from the provided inputFormat.",
   "keywords": [
     "jstransformer"
@@ -17,17 +17,17 @@
     "jstransformer-marked": "^1.0.2",
     "list-of-jstransformers": "^1.0.17",
     "npm": "^4.0.5",
-    "semistandard": "^9.2.1",
     "sort-json": "^1.4.0",
-    "testit": "^2.1.2"
+    "testit": "^2.1.2",
+    "xo": "^0.17.1"
   },
   "scripts": {
     "build": "node build",
     "test": "node test",
-    "posttest": "semistandard"
+    "posttest": "xo --space --no-semicolon"
   },
   "engines": {
-    "node": ">=6"
+    "node": ">=7"
   },
   "repository": {
     "type": "git",

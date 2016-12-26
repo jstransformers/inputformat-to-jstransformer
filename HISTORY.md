@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.2.0: 2016-12-26
+
+- Added ignore packages to adapt for broken JSTransformers
+
 ## v1.1.10: 2016-12-19
 
 - Updated dictionary

@@ -1,23 +1,23 @@
-'use strict';
+'use strict'
 
-var dictionary = require('./dictionary.json');
-var requireOne = require('require-one');
+var requireOne = require('require-one')
+var dictionary = require('./dictionary.json')
 
 /**
  * Load the first available JSTransformer from the given input format.
  *
  * @return The transformer; false otherwise.
  */
-module.exports = function inputFormatToJsTransformer (inputFormat) {
+module.exports = function (inputFormat) {
   if (inputFormat in dictionary) {
     // Attempt to load one of the packages from the dictionary.
     try {
-      return requireOne(dictionary[inputFormat]);
-    } catch (e) {
-      return false;
+      return requireOne(dictionary[inputFormat])
+    } catch (err) {
+      return false
     }
   }
-  return false;
-};
+  return false
+}
 
-module.exports.dictionary = dictionary;
+module.exports.dictionary = dictionary
