@@ -1,5 +1,10 @@
 # Changelog
 
+## v1.2.1: 2017-02-09
+
+- Fix `engine` definition
+  - By [@soniktrooth](http://github.com/soniktrooth)
+
 ## v1.2.0: 2016-12-26
 
 - Added ignore packages to adapt for broken JSTransformers

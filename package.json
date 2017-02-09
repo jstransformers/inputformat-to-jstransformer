@@ -3,7 +3,7 @@
     "require-one": "^1.0.2"
   },
   "name": "inputformat-to-jstransformer",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Load a JSTransformer from the provided inputFormat.",
   "keywords": [
     "jstransformer"
@@ -27,7 +27,7 @@
     "posttest": "xo --space --no-semicolon"
   },
   "engines": {
-    "node": ">=7"
+    "node": ">=4"
   },
   "repository": {
     "type": "git",
