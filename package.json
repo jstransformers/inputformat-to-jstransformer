@@ -17,7 +17,7 @@
     "jstransformer-marked": "^1.0.2",
     "list-of-jstransformers": "^1.0.17",
     "npm": "^4.0.5",
-    "sort-json": "^1.4.0",
+    "sort-json": "^1.4.1",
     "testit": "^2.1.2",
     "xo": "^0.17.1"
   },
