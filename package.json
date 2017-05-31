@@ -19,7 +19,7 @@
     "npm": "^5.0.0",
     "sort-json": "^1.4.0",
     "testit": "^2.1.2",
-    "xo": "^0.17.1"
+    "xo": "^0.18.2"
   },
   "scripts": {
     "build": "node build",
