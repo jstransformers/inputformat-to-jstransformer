@@ -1,26 +1,26 @@
 'use strict'
 
-var fs = require('fs')
-var list = require('list-of-jstransformers')
-var sortJson = require('sort-json')
-var npm = require('npm')
+const fs = require('fs')
+const list = require('list-of-jstransformers')
+const sortJson = require('sort-json')
+const npm = require('npm')
 
 // Construct a list of transformers to ignore.
-var ignore = [
+const ignore = [
   'mathjax',
   'move'
 ]
 
 // Remove the ignored from the list to process.
-for (var ignoreIndex in ignore) {
+for (const ignoreIndex in ignore) {
   if (ignore[ignoreIndex]) {
     list.splice(list.indexOf(ignore[ignoreIndex]), 1)
   }
 }
 
 // Put together a list of JSTransformer names.
-var modules = []
-for (var i in list) {
+const modules = []
+for (const i in list) {
   if (list[i]) {
     modules.push('jstransformer-' + list[i])
   }
@@ -33,16 +33,16 @@ function finishedInstall(err) {
   if (err) {
     throw new Error(err)
   }
-  var dictionary = {}
-  for (var i in list) {
+  const dictionary = {}
+  for (const i in list) {
     if (list[i]) {
-      var name = list[i]
-      var transformer = require('jstransformer-' + name) // eslint-disable-line import/no-dynamic-require
-      var formats = transformer.inputFormats || [name]
+      const name = list[i]
+      const transformer = require('jstransformer-' + name) // eslint-disable-line import/no-dynamic-require
+      const formats = transformer.inputFormats || [name]
 
-      for (var n in formats) {
+      for (const n in formats) {
         if (formats[n]) {
-          var format = formats[n]
+          const format = formats[n]
           // Ensure the input format exists in the dictionary.
           if (!dictionary[format]) {
             dictionary[format] = []
@@ -54,12 +54,12 @@ function finishedInstall(err) {
       }
     }
   }
-  var sorted = sortJson(dictionary)
+  const sorted = sortJson(dictionary)
   fs.writeFileSync('dictionary.json', JSON.stringify(sorted, null, 2))
 }
 
 // Install and load the package.
-npm.load(function (err) {
+npm.load(err => {
   if (err) {
     throw err
   }

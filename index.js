@@ -1,7 +1,7 @@
 'use strict'
 
-var requireOne = require('require-one')
-var dictionary = require('./dictionary.json')
+const requireOne = require('require-one')
+const dictionary = require('./dictionary.json')
 
 /**
  * Load the first available JSTransformer from the given input format.
