@@ -1,5 +1,9 @@
 # Changelog
 
+## vx.x.x: xxxx-xx-xx
+
+- Update Boilerplate
+
 ## v1.2.1: 2017-02-09
 
 - Fix `engine` definition
