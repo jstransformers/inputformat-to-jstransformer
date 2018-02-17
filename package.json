@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "require-one": "^1.0.2"
+    "require-one": "^1.0.3"
   },
   "name": "inputformat-to-jstransformer",
   "version": "1.2.1",
@@ -14,17 +14,17 @@
   ],
   "devDependencies": {
     "jstransformer": "^1.0.0",
-    "jstransformer-marked": "^1.0.2",
-    "list-of-jstransformers": "^1.0.17",
-    "npm": "^5.0.0",
-    "sort-json": "^1.4.0",
-    "testit": "^2.1.2",
+    "jstransformer-marked": "^1.0.3",
+    "list-of-jstransformers": "^1.4.0",
+    "npm": "^5.6.0",
+    "sort-json": "^1.6.1",
+    "testit": "^3.0.0",
     "xo": "*"
   },
   "scripts": {
     "build": "node build",
     "test": "node test",
-    "posttest": "xo --space --no-semicolon"
+    "posttest": "xo --space=2 --no-semicolon"
   },
   "engines": {
     "node": ">=4"
