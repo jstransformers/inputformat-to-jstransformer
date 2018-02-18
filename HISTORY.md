@@ -1,8 +1,9 @@
 # Changelog
 
-## vx.x.x: xxxx-xx-xx
+## v1.3.0: 2018-02-17
 
 - Update Boilerplate
+- Updated dictionary
 
 ## v1.2.1: 2017-02-09
 
