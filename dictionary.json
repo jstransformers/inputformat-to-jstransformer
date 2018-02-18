@@ -53,13 +53,18 @@
     "jstransformer-cdata-js"
   ],
   "clean-css": [
-    "jstransformer-clean-css"
+    "jstransformer-clean-css",
+    "jstransformer-uglify-css"
+  ],
+  "cleanjs": [
+    "jstransformer-prettier"
   ],
   "code": [
     "jstransformer-prismjs"
   ],
   "coffee": [
     "jstransformer-coffee-script",
+    "jstransformer-decaffeinate",
     "jstransformer-iced-coffee-script"
   ],
   "coffee-script": [
@@ -72,6 +77,15 @@
   "coffeekup": [
     "jstransformer-coffeekup"
   ],
+  "colon": [
+    "jstransformer-colon-template"
+  ],
+  "colon-template": [
+    "jstransformer-colon-template"
+  ],
+  "combyne": [
+    "jstransformer-combyne"
+  ],
   "commonmark": [
     "jstransformer-commonmark"
   ],
@@ -80,9 +94,8 @@
   ],
   "css": [
     "jstransformer-autoprefixer",
-    "jstransformer-bless",
+    "jstransformer-cdata-css",
     "jstransformer-css",
-    "jstransformer-csso",
     "jstransformer-jscss",
     "jstransformer-jscss-lite"
   ],
@@ -93,10 +106,17 @@
     "jstransformer-css-whitespace"
   ],
   "cssmin": [
-    "jstransformer-clean-css"
+    "jstransformer-clean-css",
+    "jstransformer-uglify-css"
   ],
   "csso": [
     "jstransformer-csso"
+  ],
+  "decaf": [
+    "jstransformer-decaffeinate"
+  ],
+  "decaffeinate": [
+    "jstransformer-decaffeinate"
   ],
   "dot": [
     "jstransformer-consolidate",
@@ -152,6 +172,9 @@
   ],
   "esformatter": [
     "jstransformer-esformatter"
+  ],
+  "esnext": [
+    "jstransformer-esnext"
   ],
   "fest": [
     "jstransformer-fest"
@@ -214,7 +237,6 @@
   "html": [
     "jstransformer-bliss",
     "jstransformer-html-minifier",
-    "jstransformer-html2jade",
     "jstransformer-jade-jekyll",
     "jstransformer-jst",
     "jstransformer-lodash",
@@ -242,6 +264,9 @@
   "i-template": [
     "jstransformer-i-template"
   ],
+  "iced-coffee-script": [
+    "jstransformer-iced-coffee-script"
+  ],
   "imba": [
     "jstransformer-imba"
   ],
@@ -267,7 +292,9 @@
   "js": [
     "jstransformer-babel",
     "jstransformer-jscss",
-    "jstransformer-jscss-lite"
+    "jstransformer-jscss-lite",
+    "jstransformer-rollup",
+    "jstransformer-uglify-es"
   ],
   "js-beautify": [
     "jstransformer-js-beautify"
@@ -278,6 +305,9 @@
   ],
   "jscss-lite": [
     "jstransformer-jscss-lite"
+  ],
+  "jsmin": [
+    "jstransformer-uglify-es"
   ],
   "json": [
     "jstransformer-hjson",
@@ -411,14 +441,16 @@
     "jstransformer-myth"
   ],
   "njk": [
-    "jstransformer-nunjucks"
+    "jstransformer-nunjucks",
+    "jstransformer-nunjucks-node"
   ],
   "node-twig": [
     "jstransformer-node-twig"
   ],
   "nunjucks": [
     "jstransformer-consolidate",
-    "jstransformer-nunjucks"
+    "jstransformer-nunjucks",
+    "jstransformer-nunjucks-node"
   ],
   "octet": [
     "jstransformer-octet"
@@ -436,6 +468,7 @@
     "jstransformer-pixie"
   ],
   "plates": [
+    "jstransformer-consolidate",
     "jstransformer-plates"
   ],
   "pleeease": [
@@ -450,6 +483,12 @@
   "precss": [
     "jstransformer-precss"
   ],
+  "prettier": [
+    "jstransformer-prettier"
+  ],
+  "pretty": [
+    "jstransformer-prettier"
+  ],
   "prism": [
     "jstransformer-prismjs"
   ],
@@ -459,6 +498,9 @@
   "pug": [
     "jstransformer-consolidate",
     "jstransformer-pug"
+  ],
+  "pupa": [
+    "jstransformer-pupa"
   ],
   "purify-css": [
     "jstransformer-purifycss"
@@ -530,6 +572,9 @@
   "stylus": [
     "jstransformer-stylus"
   ],
+  "sugarml": [
+    "jstransformer-sugarml"
+  ],
   "suitcss": [
     "jstransformer-suitcss"
   ],
@@ -548,6 +593,9 @@
   "swig": [
     "jstransformer-consolidate",
     "jstransformer-swig"
+  ],
+  "teacup": [
+    "jstransformer-consolidate"
   ],
   "templayed": [
     "jstransformer-consolidate",
@@ -578,7 +626,12 @@
   "twig": [
     "jstransformer-consolidate",
     "jstransformer-node-twig",
-    "jstransformer-twig"
+    "jstransformer-nunjucks-node",
+    "jstransformer-twig",
+    "jstransformer-twing"
+  ],
+  "twing": [
+    "jstransformer-twing"
   ],
   "typescript": [
     "jstransformer-typescript"
@@ -588,6 +641,9 @@
   ],
   "typesetbar": [
     "jstransformer-typeset"
+  ],
+  "uglify-es": [
+    "jstransformer-uglify-es"
   ],
   "uglify-js": [
     "jstransformer-uglify-js"
@@ -599,6 +655,9 @@
   "vash": [
     "jstransformer-consolidate",
     "jstransformer-vash"
+  ],
+  "velocityjs": [
+    "jstransformer-consolidate"
   ],
   "verbatim": [
     "jstransformer-verbatim"
@@ -619,5 +678,8 @@
   ],
   "xml2js": [
     "jstransformer-xml2js"
+  ],
+  "yaml": [
+    "jstransformer-yaml"
   ]
 }
