@@ -1,7 +1,5 @@
 # inputformat-to-jstransformer
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/jstransformers/inputformat-to-jstransformer.svg)](https://greenkeeper.io/)
-
 Load the first available [JSTransformer](https://github.com/jstransformers/jstransformer) from the provided `inputFormat`.
 
 [![Build Status](https://img.shields.io/travis/jstransformers/inputformat-to-jstransformer/master.svg)](https://travis-ci.org/jstransformers/inputformat-to-jstransformer)
