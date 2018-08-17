@@ -6,7 +6,9 @@ const dictionary = require('./dictionary.json')
 /**
  * Load the first available JSTransformer from the given input format.
  *
- * @return The transformer; false otherwise.
+ * @param {string} inputFormat The input format to expect.
+ *
+ * @return {bool|Transformer} The transformer; false otherwise.
  */
 module.exports = function (inputFormat) {
   if (inputFormat in dictionary) {

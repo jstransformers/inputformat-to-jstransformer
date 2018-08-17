@@ -28,6 +28,8 @@ for (const i in list) {
 
 /**
  * Write the dictionary.json based on the installed modules.
+ *
+ * @param {string} err The error that was reported.
  */
 function finishedInstall(err) {
   if (err) {
