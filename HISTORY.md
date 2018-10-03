@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.3.1: 2018-10-03
+
+- Add Inky
+
 ## v1.3.0: 2018-02-17
 
 - Update Boilerplate

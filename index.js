@@ -15,7 +15,7 @@ module.exports = function (inputFormat) {
     // Attempt to load one of the packages from the dictionary.
     try {
       return requireOne(dictionary[inputFormat])
-    } catch (err) {
+    } catch (error) {
       return false
     }
   }

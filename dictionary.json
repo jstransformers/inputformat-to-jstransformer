@@ -273,6 +273,9 @@
   "ini": [
     "jstransformer-ini"
   ],
+  "inky": [
+    "jstransformer-inky"
+  ],
   "j140": [
     "jstransformer-j140"
   ],
