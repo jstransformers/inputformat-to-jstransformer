@@ -270,6 +270,9 @@
   "imba": [
     "jstransformer-imba"
   ],
+  "inline-css": [
+    "jstransformer-inline-css"
+  ],
   "ini": [
     "jstransformer-ini"
   ],

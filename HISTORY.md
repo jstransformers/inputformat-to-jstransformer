@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.3.2: 2018-10-03
+
+- Add `inline-css`
+
 ## v1.3.1: 2018-10-03
 
 - Add Inky
