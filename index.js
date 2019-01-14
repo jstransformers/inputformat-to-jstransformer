@@ -19,6 +19,7 @@ module.exports = function (inputFormat) {
       return false
     }
   }
+
   return false
 }
 
