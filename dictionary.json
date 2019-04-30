@@ -470,6 +470,9 @@
   "pcss": [
     "jstransformer-pleeease"
   ],
+  "php": [
+    "jstransformer-php"
+  ],
   "pixie": [
     "jstransformer-pixie"
   ],
