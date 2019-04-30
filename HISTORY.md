@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.3.3: 2019-04-30
+
+- Add `php`
+
 ## v1.3.2: 2018-10-03
 
 - Add `inline-css`
