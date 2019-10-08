@@ -8,7 +8,8 @@ const npm = require('npm')
 // Construct a list of transformers to ignore.
 const ignore = [
   'mathjax',
-  'move'
+  'move',
+  'textile'
 ]
 
 // Remove the ignored from the list to process.

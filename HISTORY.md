@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.4.0: 2019-10-08
+
+- Update dictionary
+
 ## v1.3.3: 2019-04-30
 
 - Add `php`
