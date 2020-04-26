@@ -4,7 +4,6 @@ Load the first available [JSTransformer](https://github.com/jstransformers/jstra
 
 [![Build Status](https://img.shields.io/travis/jstransformers/inputformat-to-jstransformer/master.svg)](https://travis-ci.org/jstransformers/inputformat-to-jstransformer)
 [![Dependency Status](https://img.shields.io/david/jstransformers/inputformat-to-jstransformer/master.svg)](http://david-dm.org/jstransformers/inputformat-to-jstransformer)
-[![Greenkeeper badge](https://badges.greenkeeper.io/jstransformers/inputformat-to-jstransformer.svg)](https://greenkeeper.io/)
 [![NPM version](https://img.shields.io/npm/v/inputformat-to-jstransformer.svg)](https://www.npmjs.org/package/inputformat-to-jstransformer)
 
 ## Installation
